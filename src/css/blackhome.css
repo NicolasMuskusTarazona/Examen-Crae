@@ -99,6 +99,48 @@ body{
     margin-top: 10px;
     margin-left: 25px;
 }
+.main_img{
+    position: relative;
+    margin-left: 980px;
+    top: -580px;
+}
+.Comprar{
+    position: relative;
+    background-color: var(--color-1);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 20px;
+    top: -600px;
+    width: 160px;
+    background-image: url(../storage/img/blackhome/shop.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 30px 12px;
+    padding-left: 10px;
+    height: 40px;
+    border: 0;
+    border-radius: 50px;
+    margin-left: -310px;
+}
+/*.shop{
+    position: relative;
+    width: 100px;
+    top: -580px;
+}*/
+
+.Play{
+    justify-self: center;
+    text-align: center;
+    margin-top: -500px;
+}
+.textplay{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+}
+.playdescription{
+    font-family: "RobotoCondensed-Regular";
+    margin-top: 20px;
+    font-size: 34px;
+}
 /* ----------------------------------- CELULARES ----------------------------------*/
 
 @media (min-width:300px) and (max-width:430px) {
@@ -166,13 +208,36 @@ body{
         margin-left: 69px;
     }
     .info1{
-        font-size: 9px;
-        margin-top: -90px;
+        font-size: 15px;
+        margin-top: -100px;
         margin-left: 15px;
     }
     .info2{
-        font-size: 7px;
+        font-size: 7.6px;
         margin-top: 10px;
         margin-left: 15px;
+    }
+    .main_img{
+        position: relative;
+        margin-left: 300px;
+        top: -130px;
+        width: 140px;
+    }
+    .Comprar{
+        position: relative;
+        background-color: var(--color-1);
+        font-family: "RobotoCondensed-Bold";
+        font-size: 18px;
+        top: -160px;
+        margin-left: 320px;
+        width: 110px;
+        background-image: url(../storage/img/blackhome/shop.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: 10px 12px;
+        padding-left: 10px;
+        height: 40px;
+        border: 0;
+        border-radius: 50px;
     }
 }
