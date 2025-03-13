@@ -36,3 +36,79 @@ body{
     font-family: "RobotoCondensed-Regular";
     font-size: 25px;
 }
+
+.center{
+    display: flex;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 170px;
+    gap: 280px;
+}
+.center a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.center-img{
+    display: flex;
+    gap: 30px;
+    margin-top: -2px;
+    margin-left: 150px;
+}
+.moon{
+    width: 18px;
+    height: 18px;
+}
+
+.sun{
+    width: 18px;
+    height: 18px;
+}
+.linea1{
+    width: 1150px;
+    margin-top: 2px;
+    border: 0;
+    border: 1px solid var(--color-7);
+    margin-left: 170px;
+}
+
+@media (min-width:300px) and (max-width:430px) {
+    .left{
+        width: 120px;
+        height: 30px;
+    }
+    .left p{
+        font-size: 15px;
+    }
+    .water{ 
+        width: 12px;
+        height: 15px;
+    }
+    .center{
+        font-size: 10px;
+        margin-top: -18px;
+        margin-left: 100px;
+        gap: 20px;
+    }
+    .center-img{
+        display: flex;
+        margin-top: -2px;
+        gap: 10px;
+        margin-left: 1px;
+    }
+    .moon{
+        width: 12px;
+        height: 12px;
+    }
+    .sun{
+        width: 12px;
+        height: 12px;
+    }
+    .linea1{
+        width: 265px;
+        margin-top: 2px;
+        border: 0;
+        border: 1px solid var(--color-7);
+        margin-left: 100px;
+    }
+}
