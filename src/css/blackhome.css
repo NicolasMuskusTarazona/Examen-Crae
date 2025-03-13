@@ -64,13 +64,42 @@ body{
     width: 18px;
     height: 18px;
 }
-.linea1{
+
+.line1{
     width: 1150px;
     margin-top: 2px;
     border: 0;
     border: 1px solid var(--color-7);
     margin-left: 170px;
 }
+/* ----------------------------------- MAIN ----------------------------------*/
+/* ----------------------------------- INFO ----------------------------------*/
+
+.letters{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.lettre2{
+    margin-left: 10px;
+}
+.lettre3{
+    margin-left: 10px;
+}
+.lettre4{
+    margin-left: -15px;
+}
+.info1{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 54px;
+    margin-left: 20px;
+}
+.info2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+/* ----------------------------------- CELULARES ----------------------------------*/
 
 @media (min-width:300px) and (max-width:430px) {
     .left{
@@ -104,11 +133,46 @@ body{
         width: 12px;
         height: 12px;
     }
-    .linea1{
+    .line1{
         width: 265px;
         margin-top: 2px;
-        border: 0;
-        border: 1px solid var(--color-7);
         margin-left: 100px;
+    }
+    .letters{
+        width: 10px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    .lettre1{
+        width: 20px;
+        margin-left: 10px;
+    }
+    .lettre2{
+        position: relative;
+        width: 17px;
+        top: -36px;
+        margin-left: 35px;
+    }
+    .lettre3{
+        position: relative;
+        width: 15px;
+        top: -73px;
+        margin-left: 55px;
+    }
+    .lettre4{
+        position: relative;
+        top: -108px;
+        width: 15px;
+        margin-left: 69px;
+    }
+    .info1{
+        font-size: 9px;
+        margin-top: -90px;
+        margin-left: 15px;
+    }
+    .info2{
+        font-size: 7px;
+        margin-top: 10px;
+        margin-left: 15px;
     }
 }
