@@ -4,3 +4,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+/* ----------------------------------- HEADER ----------------------------------*/
+
+.left{
+    display: flex;
+    margin-top: 10px;
+    background-color: var(--color-1);
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -35px;
+    gap: 10px;
+    padding-left: 25px;
+}
+
+.water{
+    width: 16px;
+    height: 20px;
+}
+
+.left p{
+    color: var(--color-2);
+    font-family: "RobotoCondensed-Regular";
+    font-size: 25px;
+}
