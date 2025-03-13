@@ -1,0 +1,261 @@
+@import url(variables.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-3);
+    color: var(--color-1);
+}
+
+/* ----------------------------------- HEADER ----------------------------------*/
+
+.left{
+    display: flex;
+    margin-top: 10px;
+    background-color: var(--color-1);
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -35px;
+    gap: 10px;
+    padding-left: 25px;
+}
+
+.water{
+    width: 16px;
+    height: 20px;
+}
+
+.left p{
+    color: var(--color-2);
+    font-family: "RobotoCondensed-Regular";
+    font-size: 25px;
+}
+
+.center{
+    display: flex;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 15px;
+    margin-top: -20px;
+    margin-left: 170px;
+    gap: 280px;
+}
+.center a{
+    text-decoration: none;
+    color: var(--color-1);
+}
+.center-img{
+    display: flex;
+    gap: 30px;
+    margin-top: -2px;
+    margin-left: 150px;
+}
+.moon{
+    width: 18px;
+    height: 18px;
+}
+
+.sun{
+    width: 18px;
+    height: 18px;
+}
+
+.line1{
+    width: 1150px;
+    margin-top: 2px;
+    border: 0;
+    border: 1px solid var(--color-7);
+    margin-left: 170px;
+}
+/* ----------------------------------- MAIN ----------------------------------*/
+/* ----------------------------------- INFO ----------------------------------*/
+
+.letters{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.lettre2{
+    margin-left: 10px;
+}
+.lettre3{
+    margin-left: 10px;
+}
+.lettre4{
+    margin-left: -15px;
+}
+.info1{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 54px;
+    margin-left: 20px;
+}
+.info2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.main_img{
+    position: relative;
+    margin-left: 980px;
+    top: -580px;
+}
+.Comprar{
+    position: relative;
+    background-color: var(--color-1);
+    font-family: "RobotoCondensed-Bold";
+    font-size: 20px;
+    top: -600px;
+    width: 160px;
+    background-image: url(../storage/img/blackhome/shop.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 30px 12px;
+    padding-left: 10px;
+    height: 40px;
+    border: 0;
+    border-radius: 50px;
+    margin-left: -310px;
+}
+/*.shop{
+    position: relative;
+    width: 100px;
+    top: -580px;
+}*/
+
+.Play{
+    justify-self: center;
+    text-align: center;
+    margin-top: -500px;
+}
+.textplay{
+    font-family: "RobotoCondensed-Bold";
+    font-size: 64px;
+}
+.playdescription{
+    font-family: "RobotoCondensed-Regular";
+    margin-top: 20px;
+    font-size: 34px;
+}
+.Play p{
+    justify-self: center;
+    text-align: center;
+}
+/* ----------------------------------- CELULARES ----------------------------------*/
+
+@media (min-width:300px) and (max-width:430px) {
+    .left{
+        width: 120px;
+        height: 30px;
+    }
+    .left p{
+        font-size: 15px;
+    }
+    .water{ 
+        width: 12px;
+        height: 15px;
+    }
+    .center{
+        font-size: 10px;
+        margin-top: -18px;
+        margin-left: 100px;
+        gap: 20px;
+    }
+    .center-img{
+        display: flex;
+        margin-top: -2px;
+        gap: 10px;
+        margin-left: 1px;
+    }
+    .moon{
+        width: 12px;
+        height: 12px;
+    }
+    .sun{
+        width: 12px;
+        height: 12px;
+    }
+    .line1{
+        width: 265px;
+        margin-top: 2px;
+        margin-left: 100px;
+    }
+    .letters{
+        width: 10px;
+        margin-top: 40px;
+        margin-left: 5px;
+    }
+    .lettre1{
+        width: 20px;
+        margin-left: 10px;
+    }
+    .lettre2{
+        position: relative;
+        width: 17px;
+        top: -36px;
+        margin-left: 35px;
+    }
+    .lettre3{
+        position: relative;
+        width: 15px;
+        top: -73px;
+        margin-left: 55px;
+    }
+    .lettre4{
+        position: relative;
+        top: -108px;
+        width: 15px;
+        margin-left: 69px;
+    }
+    .info1{
+        font-size: 15px;
+        margin-top: -100px;
+        margin-left: 15px;
+    }
+    .info2{
+        font-size: 7.6px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+    .main_img{
+        position: relative;
+        margin-left: 300px;
+        top: -130px;
+        width: 140px;
+    }
+    .Comprar{
+        position: relative;
+        background-color: var(--color-1);
+        font-family: "RobotoCondensed-Bold";
+        font-size: 18px;
+        top: -160px;
+        margin-left: 320px;
+        width: 110px;
+        background-image: url(../storage/img/blackhome/shop.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: 10px 12px;
+        padding-left: 10px;
+        height: 40px;
+        border: 0;
+        border-radius: 50px;
+    }
+    .Play{
+        justify-self: center;
+        text-align: center;
+        margin-top: -150px;
+    }
+    .textplay{
+        font-family: "RobotoCondensed-Bold";
+        font-size: 34px;
+    }
+    .playdescription{
+        font-family: "RobotoCondensed-Regular";
+        margin-top: 20px;
+        font-size: 14px;
+    }
+}
