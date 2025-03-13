@@ -240,4 +240,18 @@ body{
         border: 0;
         border-radius: 50px;
     }
+    .Play{
+        justify-self: center;
+        text-align: center;
+        margin-top: -150px;
+    }
+    .textplay{
+        font-family: "RobotoCondensed-Bold";
+        font-size: 34px;
+    }
+    .playdescription{
+        font-family: "RobotoCondensed-Regular";
+        margin-top: 20px;
+        font-size: 14px;
+    }
 }
