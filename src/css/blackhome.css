@@ -141,6 +141,10 @@ body{
     margin-top: 20px;
     font-size: 34px;
 }
+.Play p{
+    justify-self: center;
+    text-align: center;
+}
 /* ----------------------------------- CELULARES ----------------------------------*/
 
 @media (min-width:300px) and (max-width:430px) {
